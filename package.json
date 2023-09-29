@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:remotetolocalimagevscode.helloWorld"
+    "onCommand:remotetolocalimagevscode.replaceinworkspaces"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "remotetolocalimagevscode.helloWorld",
-        "title": "Hello World"
+        "command": "remotetolocalimagevscode.replaceinworkspaces",
+        "title": "Replace images in workspace"
       }
     ]
   },
