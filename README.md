@@ -1,5 +1,5 @@
 # Remote to Local images README
-
+This project uses the base code from [ImageSaver by Ademiking](https://github.com/Ademking/imgsaver) <br>
 This extension helps replaceing remote image urls with local uris by downloading the images and replacing the paths
 ## Features
 
