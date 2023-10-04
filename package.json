@@ -25,15 +25,6 @@
       {
         "command": "remotetolocalimagevscode.replaceinfile",
         "title": "Replace images in file"
-      },
-
-      {
-        "command": "remotetolocalimagevscode.currenthighlight",
-        "title": "Replace highlighted string"
-      },
-      {
-        "command": "remotetolocalimagevscode.copyurl",
-        "title": "Replace highlighted string"
       }
     ]
   },
