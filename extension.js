@@ -63,7 +63,7 @@ function provideCodeLenses(document) {
 				const range = new vscode.Range(startPosition, endPosition);
 				const codeLens = new vscode.CodeLens(range);
 				codeLens.command = {
-						title: "Download & replace img",
+						title: "Make image local",
 						command: "remotetolocalimagevscode.singleurl",
 						arguments: [match[0]]
 				};

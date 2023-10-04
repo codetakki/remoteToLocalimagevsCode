@@ -14,9 +14,9 @@
   ],
   "main": "./extension.js",
   "contributes": {
-    "codeLensProvider" : {
+    "codeLensProvider": {
       "resolveProvider": "true"
-  },
+    },
     "commands": [
       {
         "command": "remotetolocalimagevscode.replaceinworkspaces",
@@ -26,7 +26,23 @@
         "command": "remotetolocalimagevscode.replaceinfile",
         "title": "Replace images in file"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Remote image converter",
+      "properties": {
+         "remotetolocalimagevscode.imagespath":{
+          "name": "Image path",
+           "type": "string",
+           "default": "/images",
+           "description": "Default path for images, relative to workspace root. leave empty to place in root folder"
+         },
+         "remotetolocalimagevscode.imagename":{
+          "type": "string",
+          "default": "${rawdate}",
+          "description": "The generated name of images. Add formats with ${}. if image already exists a index will be added. Available options: workspacename, formatteddate, rawdate"
+        }
+      }
+   }
   },
   "scripts": {
     "lint": "eslint .",
@@ -47,7 +63,6 @@
   "dependencies": {
     "axios": "^1.5.1",
     "chalk": "^5.3.0",
-    "commander": "^11.0.0",
-    "request": "^2.88.2"
+    "commander": "^11.0.0"
   }
 }
