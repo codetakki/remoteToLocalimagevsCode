@@ -10,14 +10,30 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:remotetolocalimagevscode.replaceinworkspaces"
+    "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
+    "codeLensProvider" : {
+      "resolveProvider": "true"
+  },
     "commands": [
       {
         "command": "remotetolocalimagevscode.replaceinworkspaces",
         "title": "Replace images in workspace"
+      },
+      {
+        "command": "remotetolocalimagevscode.replaceinfile",
+        "title": "Replace images in file"
+      },
+
+      {
+        "command": "remotetolocalimagevscode.currenthighlight",
+        "title": "Replace highlighted string"
+      },
+      {
+        "command": "remotetolocalimagevscode.copyurl",
+        "title": "Replace highlighted string"
       }
     ]
   },
@@ -38,6 +54,7 @@
     "vscode-test": "^1.5.2"
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "chalk": "^5.3.0",
     "commander": "^11.0.0",
     "request": "^2.88.2"
