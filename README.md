@@ -50,5 +50,5 @@ Todo
 
 ### 1.0.0
 
-Initial release includes "replace images in workspace"
+Created first version for VScode Marketplace
 
