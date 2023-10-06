@@ -19,6 +19,8 @@ Replace remote images in workspace with "Replace remote images " command
 Adds a Code Lens above image urls that lets you replace single images 
 Change the path of downloaded images relative to the current workspace
 Change how image names are formatted 
+
+![](images/remoteimagesevcode.webp)
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements

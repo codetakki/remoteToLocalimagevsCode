@@ -1,8 +1,10 @@
 {
   "name": "remotetolocalimagevscode",
-  "displayName": "remoteToLocalimagevsCode",
-  "description": "",
+  "displayName": "Remote image to local",
+  "description": "Extension that lets you automatically download and replace images with a local path. ",
   "version": "0.0.1",
+  "icon": "images/icon.png",
+  "repository": "https://github.com/codetakki/remoteToLocalimagevsCode",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -30,19 +32,19 @@
     "configuration": {
       "title": "Remote image converter",
       "properties": {
-         "remotetolocalimagevscode.imagespath":{
-          "name": "Image path",
-           "type": "string",
-           "default": "/images",
-           "description": "Default path for images, relative to workspace root. leave empty to place in root folder"
-         },
-         "remotetolocalimagevscode.imagename":{
+        "remotetolocalimagevscode.imagespath": {
+          "title": "Image path",
+          "type": "string",
+          "default": "/images",
+          "description": "Default path for images, relative to workspace root. leave empty to place in root folder"
+        },
+        "remotetolocalimagevscode.imagename": {
           "type": "string",
           "default": "${rawdate}",
           "description": "The generated name of images. Add formats with ${}. if image already exists a index will be added. Available options: workspacename, formatteddate, rawdate"
         }
       }
-   }
+    }
   },
   "scripts": {
     "lint": "eslint .",
