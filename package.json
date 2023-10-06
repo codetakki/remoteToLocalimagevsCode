@@ -3,7 +3,7 @@
   "displayName": "Remote image to local",
   "publisher": "TarekAufderStrasse",
   "description": "Extension that lets you automatically download and replace images with a local path. ",
-  "version": "1.0.0.1",
+  "version": "1.0.1",
   "icon": "images/icon.png",
   "repository": "https://github.com/codetakki/remoteToLocalimagevsCode",
   "engines": {
