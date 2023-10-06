@@ -1,4 +1,4 @@
-# Remote to Local images README
+# Remote to Local images
 This project uses the base code from [ImageSaver by Ademiking](https://github.com/Ademking/imgsaver) <br>
 This extension helps replaceing remote image urls with local uris by downloading the images and replacing the paths
 
@@ -21,7 +21,6 @@ Change the path of downloaded images relative to the current workspace<br>
 Change how image names are formatted 
 
 ![](images/remoteimagesevcode.webp)
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
