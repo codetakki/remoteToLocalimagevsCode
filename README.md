@@ -15,9 +15,9 @@ This project is in very early stages. I currently see the following upgrades:
 
 ## Features
 
-Replace remote images in workspace with "Replace remote images " command
-Adds a Code Lens above image urls that lets you replace single images 
-Change the path of downloaded images relative to the current workspace
+Replace remote images in workspace with "Replace remote images " command<br>
+Adds a Code Lens above image urls that lets you replace single images <br>
+Change the path of downloaded images relative to the current workspace<br>
 Change how image names are formatted 
 
 ![](images/remoteimagesevcode.webp)
