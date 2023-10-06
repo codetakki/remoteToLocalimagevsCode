@@ -33,19 +33,19 @@
     "configuration": {
       "title": "Remote image converter",
       "properties": {
-        "remotetolocalimagevscode.imagespath": {
-          "title": "Image path",
-          "type": "string",
-          "default": "/images",
-          "description": "Default path for images, relative to workspace root. leave empty to place in root folder"
-        },
-        "remotetolocalimagevscode.imagename": {
+         "remotetolocalimagevscode.imagespath":{
+          "name": "Image path",
+           "type": "string",
+           "default": "/images",
+           "description": "Default path for images, relative to workspace root. leave empty to place in root folder"
+         },
+         "remotetolocalimagevscode.imagename":{
           "type": "string",
           "default": "${rawdate}",
           "description": "The generated name of images. Add formats with ${}. if image already exists a index will be added. Available options: workspacename, formatteddate, rawdate"
         }
       }
-    }
+   }
   },
   "scripts": {
     "lint": "eslint .",
