@@ -2,16 +2,7 @@
 This project uses the base code from [ImageSaver by Ademiking](https://github.com/Ademking/imgsaver) <br>
 This extension helps replaceing remote image urls with local uris by downloading the images and replacing the paths
 
-## TODO
 
-This project is in very early stages. I currently see the following upgrades:
-- Ability to replace single images DONE
-- Ability to replace for a entier file DONE
-- Settings for default path and image file DONE
-- Dialog for selecting wanted save path
-- Settings for chaning dowloaded image name DONE
-  - original file name with index? DONE
-  - Formated timestamps DONE
 
 ## Features
 
@@ -24,7 +15,8 @@ Change how image names are formatted
 
 ## Requirements
 
-Todo
+VS code ^1.82.0
+
 ## Extension Settings
 
 
