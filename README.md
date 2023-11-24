@@ -3,22 +3,27 @@ This project uses the base code from [ImageSaver by Ademiking](https://github.co
 This extension helps replaceing remote image urls with local uris by downloading the images and replacing the paths
 
 
-
 ## Features
 
 Replace remote images in workspace with "Replace remote images " command<br>
 Adds a Code Lens above image urls that lets you replace single images <br>
 Change the path of downloaded images relative to the current workspace<br>
 Change how image names are formatted 
+- Ability to replace single images
+- Ability to replace for a entier file 
+- Settings for default path and image file
+- Settings for chaning dowloaded image name 
+  - original file name with index? 
+  - Formated timestamps 
 
 ![](images/remoteimagesevcode.webp)
 
-## Requirements
+## TODO
 
-VS code ^1.82.0
+This project is in very early stages. I currently see the following upgrades:
+- Dialog for selecting wanted save path
 
 ## Extension Settings
-
 
 - Image Name 
   - Allows you to set a filename for a given string 
